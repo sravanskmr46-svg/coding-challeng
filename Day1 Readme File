@@ -1,0 +1,77 @@
+Sales Data Analysis Project
+
+Project Overview
+
+This project analyzes a sales dataset to identify revenue trends across different regions, product categories, and products. The objective is to clean the data, calculate total revenue, and generate insights using Pivot Tables and charts in Microsoft Excel.
+
+Objectives
+
+- Clean the dataset and handle any inconsistencies or missing values.
+- Calculate Total Revenue for each transaction.
+- Analyze revenue distribution by Region and Product Category.
+- Identify the Top 5 performing products based on revenue.
+- Visualize revenue performance by region using charts.
+
+Dataset Description
+
+The dataset contains sales transaction records with the following columns:
+
+- Product Name
+- Product Category
+- Region
+- Quantity
+- Unit Price
+
+Steps Performed
+
+1. Data Cleaning
+
+- Removed duplicate records if present.
+- Checked for missing or inconsistent values.
+- Ensured correct data types for Quantity and Unit Price columns.
+- Removed unnecessary spaces in text fields where required.
+
+2. Total Revenue Calculation
+
+A new column named Total Revenue was created using the formula:
+
+Total Revenue = Quantity × Unit Price
+
+3. Pivot Table Analysis
+
+Revenue by Region
+
+A Pivot Table was created to calculate the Total Revenue generated in each region.
+
+Revenue by Product Category
+
+Another Pivot Table was created to analyze Total Revenue for each product category.
+
+4. Top Performing Products
+
+A Pivot Table was used to identify the Top 5 products generating the highest revenue by sorting revenue values in descending order and applying a Top 5 filter.
+
+5. Data Visualization
+
+A Column Chart was created to visualize Revenue by Region, helping to easily compare sales performance across regions.
+
+Tools Used
+
+- Microsoft Excel
+- Pivot Tables
+- Excel Charts
+- Basic Excel Formulas
+
+Deliverables
+
+The project folder contains:
+
+- Cleaned Excel dataset
+- Calculated Total Revenue column
+- Pivot Tables for analysis
+- Chart showing Revenue by Region
+- README documentation
+
+Conclusion
+
+This analysis provides insights into sales performance across regions and product categories, helping identify the most profitable products and markets.
