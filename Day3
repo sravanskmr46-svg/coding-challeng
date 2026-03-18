@@ -1,0 +1,171 @@
+📊 Healthy Kids Nutrition & Growth Analysis
+README Document
+📌 Project Overview
+
+This project focuses on analyzing children's health data to understand the relationship between nutrition, lifestyle habits, and physical growth. The analysis is performed using Microsoft Excel, leveraging data cleaning, calculations, pivot tables, and dashboard creation techniques.
+
+The goal is to identify patterns in BMI, dietary habits, screen time, and regional differences to support better health decisions.
+
+🎯 Objectives
+
+Calculate Body Mass Index (BMI) for each child
+
+Categorize children into health groups (Underweight, Healthy, Overweight, Obese)
+
+Analyze the impact of:
+
+Fruit & vegetable intake
+
+Sugar consumption
+
+Screen time
+
+Compare health trends across different regions and age groups
+
+Build an interactive dashboard for visualization
+
+📂 Dataset Description
+
+The dataset (Child_Health_Data.csv) contains the following fields:
+
+Child ID
+
+Age (in months)
+
+Gender
+
+Height (cm)
+
+Weight (kg)
+
+Daily fruit servings
+
+Daily vegetable servings
+
+Daily sugar drink intake
+
+Screen time (hours)
+
+Region
+
+🛠 Tools & Technologies
+
+Microsoft Excel – Data cleaning and analysis
+
+Pivot Tables – Data summarization
+
+Charts – Visualization
+
+Slicers – Dashboard interactivity
+
+🔄 Step-by-Step Workflow
+1️⃣ Data Cleaning
+
+Converted raw data into an Excel table
+
+Checked for missing and duplicate values
+
+Ensured consistent formatting
+
+2️⃣ Feature Engineering
+
+Created BMI column using formula:
+
+BMI = Weight (kg) / (Height (m))²
+
+Created Health_Status column:
+
+Underweight
+
+Healthy Weight
+
+Overweight
+
+Obese
+
+3️⃣ Data Analysis
+📊 Health Status by Age
+
+Used Pivot Tables to analyze BMI categories across age groups
+
+🍎 Nutrition vs BMI
+
+Compared fruit & vegetable intake with average BMI
+
+📱 Lifestyle Impact
+
+Studied relationship between:
+
+Sugar consumption
+
+Screen time
+
+Health status
+
+🌍 Regional Analysis
+
+Compared BMI and nutrition patterns across regions
+
+4️⃣ Dashboard Creation
+
+Built an interactive dashboard including:
+
+Bar charts
+
+Scatter plots
+
+Pivot charts
+
+Added slicers for:
+
+Gender
+
+Region
+
+Health status
+
+📈 Key Insights
+
+Higher fruit and vegetable intake is linked to healthier BMI levels
+
+Increased sugar consumption correlates with overweight and obesity
+
+More screen time is associated with poor health outcomes
+
+Certain regions show lower nutrition intake and higher BMI trends
+
+💡 Recommendations
+
+Encourage healthy eating habits through school nutrition programs
+
+Reduce sugary drink consumption among children
+
+Promote physical activity to reduce screen time
+
+Focus on regions with poor nutrition awareness
+
+✅ Deliverables
+
+Cleaned Excel dataset
+
+BMI and Health Status calculations
+
+Pivot tables and charts
+
+Interactive dashboard
+
+Executive summary report
+
+📎 How to Use
+
+Open the dataset in Microsoft Excel
+
+Refresh Pivot Tables if needed
+
+Use slicers to filter data
+
+Explore charts for insights
+
+📌 Conclusion
+
+This project highlights the importance of balanced nutrition and controlled lifestyle habits in children's health. The insights derived can help parents, schools, and policymakers make informed decisions to improve child well-being.
