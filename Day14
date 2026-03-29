@@ -1,0 +1,78 @@
+📊 Sales Analysis SQL Project
+📌 Project Overview
+
+This project demonstrates basic to intermediate SQL operations using a Sales dataset. It covers data retrieval, filtering, sorting, and simple analysis queries.
+
+🗂️ Database Schema
+Table: Sales
+Column Name	Data Type	Description
+sale_id	INT (PK)	Unique sale ID
+customer_name	VARCHAR(50)	Customer name
+city	VARCHAR(50)	Customer city
+product_name	VARCHAR(50)	Product purchased
+category	VARCHAR(50)	Product category
+quantity	INT	Quantity purchased
+price	DECIMAL(10,2)	Price per product
+sale_date	DATE	Date of sale
+🛠️ Table Creation
+CREATE TABLE Sales (
+    sale_id INT PRIMARY KEY,
+    customer_name VARCHAR(50),
+    city VARCHAR(50),
+    product_name VARCHAR(50),
+    category VARCHAR(50),
+    quantity INT,
+    price DECIMAL(10,2),
+    sale_date DATE
+);
+📥 Sample Data
+INSERT INTO Sales VALUES
+(1, 'Ravi', 'Bangalore', 'Laptop', 'Electronics', 1, 60000, '2023-06-01'),
+(2, 'Priya', 'Chennai', 'Mobile', 'Electronics', 2, 20000, '2023-06-03'),
+(3, 'Amit', 'Delhi', 'Headphones', 'Accessories', 3, 2000, '2023-06-05'),
+(4, 'Neha', 'Mumbai', 'Chair', 'Furniture', 2, 5000, '2023-06-07'),
+(5, 'Ravi', 'Bangalore', 'Mobile', 'Electronics', 1, 20000, '2023-06-10'),
+(6, 'Priya', 'Chennai', 'Laptop', 'Electronics', 1, 60000, '2023-06-12'),
+(7, 'Amit', 'Delhi', 'Chair', 'Furniture', 4, 5000, '2023-06-15'),
+(8, 'Neha', 'Mumbai', 'Headphones', 'Accessories', 2, 2000, '2023-06-18');
+📊 SQL Queries Covered
+🔹 Basic Queries
+View all records
+Select specific columns
+Filter data using WHERE
+Use DISTINCT for unique values
+🔹 Filtering Examples
+-- Sales from Bangalore
+SELECT * FROM Sales WHERE city = 'Bangalore';
+
+-- Electronics products
+SELECT * FROM Sales WHERE category = 'Electronics';
+
+-- Price greater than 10000
+SELECT * FROM Sales WHERE price > 10000;
+🔹 Sorting Data
+-- Sort by price (ascending)
+SELECT * FROM Sales ORDER BY price ASC;
+
+-- Sort by quantity (descending)
+SELECT * FROM Sales ORDER BY quantity DESC;
+🔹 Unique Values
+SELECT DISTINCT city FROM Sales;
+📈 Key Learnings
+Understanding SQL table structure
+Writing SELECT queries
+Filtering data using conditions
+Sorting results using ORDER BY
+Eliminating duplicates using DISTINCT
+🚀 Future Enhancements
+Use GROUP BY for aggregation
+Calculate total sales per city
+Find top-selling products
+Use JOIN with multiple tables
+Implement window functions
+🧑‍💻 Tools Used
+MySQL / SQL Server / PostgreSQL
+SQL Query Editor
+📌 Conclusion
+
+This project is a beginner-friendly introduction to SQL that builds a strong foundation for data analysis and database querying.
